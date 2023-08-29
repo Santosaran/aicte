@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        input{
+            padding: 5px;
+            border: 2px solid grey;
+            margin: 10px;
+        }
+        p{
+            font-size: 20px;
+        }
+        label{
+            font-size: 17px;
+        }
+        .left-container{
+            width: 40%;
+            padding: 2rem;
+            float: left;
+        }
+        .right-container{
+            width: 50%;
+            padding: 2rem;
+            float: right;
+        }
+        li{
+            display: block;
+        }
+    </style>
+    <h2>
+        GENERAL ADMISSION REGISTRATION
+    </h2>
+    <div class="container">
+        <div class="row">
+            <div class="left-container">
+                <form>
+                  <p>
+                    Name
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+                  </p>
+                </form>
+                <form>
+                    <p>
+                      Email
+                    <input type="email" name="Email" id="email" placeholder="sample@example.com">  
+                    </p>
+                </form>
+                <form>
+                    <p>
+                      Gender
+                      <input type="radio" name="option" id="gender" value="Male">
+                      <label for="gender">Male</label>
+                      <input type="radio" name="option" id="gender" value="Female">
+                      <label for="gender">Female</label>
+                    </p>
+                </form>
+                <form>
+                    <p>
+                        Phone
+                        <input type="number" id="phonenumber" name="number">
+                    </p>
+                </form>
+                <form>
+                    <p>
+                        Emergency Contact
+                        <input type="number" id="phonenumber" name="number">
+                    </p>
+                </form>
+                <form>
+                    <p>
+                      Do you require parking?
+                    </p>
+                      <input type="radio" name="option" id="Question" value="yes">
+                      <label for="Question">yes</label>
+                      <input type="radio" name="option" id="Question" value="no">
+                      <label for="Question">No</label>
+                </form>
+                <form>
+                    <p>
+                      What is your room preference?
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Single Room</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Shared Room</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="no">
+                            <label for="Question">No Room Needed</label>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="right-container">
+                <form>
+                    <p>
+                      Do you have any dietary restrictions?
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">None</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Vegetarian</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="no">
+                            <label for="Question">Glutten Allergy</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Lactose Allergy</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Nut Allergy</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="no">
+                            <label for="Question">Shellfish Allergy</label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <p>
+                      What activities you will attend?
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Awards gala winner</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="yes">
+                            <label for="Question">Luncheon</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" id="choice" value="no">
+                            <label for="Question">Town Hall</label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <p>
+                      Do you want to see the list of other attendees and their profiles on the official event app?
+                    </p>
+                        <input type="radio" name="option" id="choice" value="yes">
+                        <label for="Question">yes</label>
+                        <input type="radio" name="option" id="choice" value="yes">
+                        <label for="Question">No</label>
+                        <input type="radio" name="option" id="choice" value="no">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
